@@ -31,7 +31,8 @@
 /* ヘッダー */
 @media (max-width: 600px) {
     .header-menu a {
-        font-size: 8px;
+        font-size: 13px;
+        padding: 0 30px;
     }
 }
 /* プロフィール */
