@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* トップページ */
+@media (max-width: 960px) {
+    .main-copy h1 {
+        text-align: center;
+        font-size: 120px;
+    }
+    .main-copy h2 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 600px) {
+    .main-copy h1 {
+        text-align: center;
+        font-size: 100px;
+    }
+    .main-copy h2 {
+        font-size: 30px;
+    }
+    .main-btn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-btn a {
+        flex: auto;
+        width: 100%;
+    }
+}
+
+/* ヘッダー */
+
+/* プロフィール */
+
+/* 趣味とかのページ */
+@media (max-width: 960px) {
+    .hobbys {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobbys a {
+        flex: auto;
+        width: 40%;
+    }
+}
+@media (max-width: 600px) {
+    .hobbys{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobbys a {
+        flex: auto;
+        width: 100%;
+    }
+}
+
+/* サモンズ部門 */
+@media (max-width: 960px) {
+    .summonstitle1 {
+        font-size: 75px;
+        letter-spacing: 30px;
+    }
+    .summonstitle2 {
+        font-size: 32px;
+    }
+    .summonstitle3 {
+        font-size: 32px;
+    }
+    .summonstitle4 {
+        font-size: 45px;
+    }
+    .summonstitle5 {
+        font-size: 32px;
+    }
+    .summonstitle6 {
+        font-size: 28px;
+    }
+    .slide {
+        width: 30%;
+    }
+    .hobby video {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .summonstitle1 {
+        font-size: 45px;
+        letter-spacing: 30px;
+    }
+    .summonstitle2 {
+        font-size: 25px;
+    }
+    .summonstitle3 {
+        font-size: 25px;
+    }
+    .summonstitle4 {
+        font-size: 31px;
+    }
+    .summonstitle5 {
+        font-size: 23px;
+    }
+    .mons-images img {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .summonstitle6 {
+        font-size: 23px;
+    }
+    .slide {
+        width: 60%;
+    }
+    .hobby video {
+        width: 60%;
+    }
+}

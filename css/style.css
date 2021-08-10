@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* 全体 */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ヘッダー */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.header-wrapper {
+    height: 100px;
+    background-color:rgb(127, 193, 255);
+    display: flex;
+}
+.header-icon img {
+    width: 100px;
+}
+.header-menu {
+    margin-left: auto;
+}
+.header-menu li {
+    float: left;
+    line-height: 100px;
+    list-style-type: none;
+}
+.header-menu a {
+    background-color:rgb(176, 226, 255);
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    transition: all 0.4s;
+}
+.header-menu a:hover {
+    background-color: rgb(36, 167, 255);
+}
+.header-menu a:active {
+    background-color:rgb(0, 217, 255);
+}
+
+/* メイン */
+main {
+    height: auto;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    background-color: rgb(218, 253, 255);
+}
+.main-wrapper {
+    background-image: url(../images/mainback.jpeg);
+    background-size: cover;
+}
+.main-copy h1 {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    padding: 60px 0;
+}
+.main-copy h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: normal;
+}
+.main-contents p {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 20px;
+}
+.main-btn {
+    text-align: center;
+    padding-bottom: 40px;
+    display: flex;
+}
+.main-btn a {
+    width: 50%;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px 70px;
+    background-color:springgreen;
+    padding: 60px;
+    box-shadow: 0 10px green;
+}
+.main-btn a:hover {
+    background-color:rgb(41, 255, 22);
+}
+.main-btn a:active {
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
+
+
+/* フッター */
+.footer-wrapper {
+    background-color:rgb(127, 193, 255);
+    padding: 30px 0;
+}
+.footer-text p {
+    padding-left: 20px;
+}
+
+/* プロフィールページメイン部分 */
+.profile-main {
+    padding: 20px 0;
+}
+.profile {
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0 40px;
+    border-radius: 20px;
+}
+.profile h1 {
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(105, 182, 255);
+}
+.profile h2 {
+    padding-top: 20px;
+    font-size: 22px;
+}
+.profile p {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(211, 218, 224, 0.616);
+}
+
+.qanda {
+    cursor: pointer;
+    list-style-type: none;
+    width: 90%;
+    border-bottom: 1px solid rgba(211, 218, 224, 0.616);
+}
+.answer {
+    display: none;
+    padding: 10px 0;
+    background-color:rgba(211, 218, 224, 0.616);
+}
+/* 趣味とかのページ */
+.hobby-main {
+    padding: 20px 0;
+}
+.hobby {
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0 40px;
+    border-radius: 20px;
+}
+.hobby-h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(211, 218, 224, 0.616);
+}
+.hobby p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.hobbys {
+    display: flex;
+}
+.hobbys a {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    flex: auto;
+    background-color: springgreen;
+    margin: 30px 20px;
+    padding: 60px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px green;
+}
+.hobbys a:hover {
+    background-color:rgb(41, 255, 22);
+}
+.hobbys a:active {
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
+
+/* サモンズ */
+.summonstitle1 {
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 50px;
+    font-size: 100px;
+    margin: 300px 0 600px;
+}
+.summonstitle2 {
+    text-align: right;
+    font-size: 40px;
+    margin: 0 0 600px;
+}
+.summonstitle3 {
+    text-align: left;
+    font-size: 40px;
+    margin: 0 0 900px;
+}
+.summonstitle4 {
+    text-align: center;
+    font-size: 70px;
+    margin: 0 0 600px;
+}
+.summonstitle5 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.mons-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mons-images img {
+    flex: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.summonstitle6 {
+    font-size: 30px;
+    text-align: center;
+    margin: 600px 0 200px;
+}
+.play-video {
+    text-align: center;
+}
+.hobby video {
+    margin: 30px 0;
+    width: 25%;
+}
+.gallery {
+    text-align: center;
+}
+.slide {
+    width: 22%;
+    display: none;
+}
+.active {
+    display: inline-block;
+}
+.move-btn {
+    display: flex;
+}
+.prev {
+    color:rgb(94, 94, 94);
+    background-color:rgb(0, 238, 255);
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 20px auto 20px 10px;
+    display: none;
+    cursor: pointer;
+}
+.next {
+    color: rgb(94, 94, 94);
+    background-color:rgb(0, 238, 255);
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin: 20px 10px 20px auto;
+    cursor: pointer;
+}
+.prev:hover {
+    background-color: rgb(36, 167, 255);
+}
+.next:hover {
+    background-color: rgb(36, 167, 255);
+}
+.prev:active {
+    background-color:royalblue;
+}
+.next:active {
+    background-color: royalblue;
+}
+.top-back {
+    width: 45%;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: springgreen;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px green;
+    cursor: pointer;
+}
+.top-back:hover {
+    background-color:rgb(41, 255, 22);
+}
+.top-back:active {
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
