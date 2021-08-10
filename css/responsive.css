@@ -31,8 +31,8 @@
 /* ヘッダー */
 @media (max-width: 600px) {
     .header-menu a {
-        font-size: 13px;
-        padding: 0 30px;
+        font-size: 10px;
+        padding: 0 20px;
     }
 }
 /* プロフィール */
@@ -62,8 +62,8 @@
 /* サモンズ部門 */
 @media (max-width: 960px) {
     .summonstitle1 {
-        font-size: 70px;
-        letter-spacing: 20px;
+        font-size: 75px;
+        letter-spacing: 30px;
     }
     .summonstitle2 {
         font-size: 32px;
@@ -90,8 +90,8 @@
 
 @media (max-width: 600px) {
     .summonstitle1 {
-        font-size: 38px;
-        letter-spacing: 25px;
+        font-size: 30px;
+        letter-spacing: 15px;
     }
     .summonstitle2 {
         font-size: 25px;
