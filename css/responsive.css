@@ -31,7 +31,7 @@
 /* ヘッダー */
 @media (max-width: 600px) {
     .header-menu a {
-        font-size: 10px;
+        font-size: 1px;
         padding: 0 20px;
     }
 }
