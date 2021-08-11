@@ -37,6 +37,8 @@ $(function() {
             $answer.slideDown();
         }
     });
-
+    $('.header-menu2').click(function() {
+        $('.column-menu-list').slideToggle();
+    });
     
 });
