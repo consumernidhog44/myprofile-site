@@ -30,13 +30,16 @@
 
 /* ヘッダー */
 @media (max-width: 600px) {
-    .header-icon img {
-        width: 75px;
-        padding-top: 10px;
+    .flex-menu li {
+        display: none;
     }
-    .header-menu a {
-        font-size: 15px;
-        padding: 0 25px;
+    .humb {
+        display: block;
+    }
+}
+@media (min-width: 600px) {
+    .column-menu-list {
+        display: none;
     }
 }
 /* プロフィール */
