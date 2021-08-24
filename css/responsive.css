@@ -87,7 +87,7 @@
     .summonstitle6 {
         font-size: 28px;
     }
-    .slide {
+    .s-img {
         width: 30%;
     }
     .hobby video {
@@ -99,7 +99,7 @@
     .summonstitle1 {
         font-size: 30px;
         letter-spacing: 15px;
-        text-indent: -5px;
+        text-indent: 1em;
     }
     .summonstitle2 {
         font-size: 25px;
@@ -120,7 +120,7 @@
     .summonstitle6 {
         font-size: 23px;
     }
-    .slide {
+    .s-img {
         width: 60%;
     }
     .hobby video {
