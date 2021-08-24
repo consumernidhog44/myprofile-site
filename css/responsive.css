@@ -127,3 +127,28 @@
         width: 60%;
     }
 }
+
+/* ポケモン部門 */
+@media (max-width: 960px) {
+    .play-list h2 {
+        font-size: 25px;
+    }
+    .poke-image {
+        width: 75%;
+    }
+    .poke-movie video {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .flex-list {
+        flex-wrap: wrap;
+    }
+    .poke-image {
+        width: 100%;
+    }
+    .poke-movie video {
+        width: 100%;
+    }
+}
