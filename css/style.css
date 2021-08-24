@@ -332,3 +332,49 @@ main {
     position: relative;
     top: 10px;
 }
+
+/* ポケモン */
+.p-img {
+    width: 50%;
+}
+.slide-h3 {
+    font-size: 30px;
+}
+.slide-p {
+    margin: 10px 40px;
+}
+.poke-movie video {
+    width: 70%;
+}
+.achieve-img {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+.poke-image {
+    width: 50%;
+}
+.achievement h3 {
+    font-size: 22px;
+}
+.achievement p {
+    text-align: left;
+    text-indent: 1em;
+    padding: 8px 0;
+}
+.achievement a {
+    font-size: 18px;
+    padding: 20px 0;
+}
+.play-list {
+    width: 100%;
+}
+.play-list li {
+    padding: 5px 0;
+    font-size: 20px;
+}
+.play-list h2 {
+    font-size: 30px;
+}
+.flex-list {
+    display: flex;
+}
