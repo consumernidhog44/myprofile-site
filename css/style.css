@@ -379,3 +379,32 @@ main {
 .flex-list {
     display: flex;
 }
+
+/* 遊戯王 */
+.y-img {
+    width: 45%;
+}
+.duel-id p {
+    text-align: left;
+}
+
+.duel-movie video {
+    width: 70%;
+}
+
+/* その他 */
+.smash {
+    text-align: center;
+}
+
+.smash-image {
+    width: 50%;
+}
+
+.smash-movie {
+    text-align: center;
+}
+
+.smash-movie video {
+    width: 60%;
+}
