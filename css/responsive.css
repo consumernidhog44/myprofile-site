@@ -152,3 +152,45 @@
         width: 100%;
     }
 }
+
+/* 遊戯王部門 */
+@media (max-width: 960px) {
+    .y-img {
+        width: 70%;
+    }
+
+    .duel-movie video {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .y-img {
+        width: 100%;
+    }
+
+    .duel-movie video {
+        width: 100%;
+    }
+}
+
+/* スマブラ部門 */
+@media (max-width: 960px) {
+    .smash-image {
+        width: 70%;
+    }
+
+    .smash-movie video {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .smash-image {
+        width: 100%;
+    }
+
+    .smash-movie video {
+        width: 100%;
+    }
+}
